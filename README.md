@@ -72,3 +72,6 @@ Die App kann lokal ausgeführt werden, indem Sie den Django-Entwicklungsserver s
 python manage.py runserver
 Besuchen Sie dann http://localhost:8000/ in Ihrem Browser, um die CRUD-APP anzuzeigen.
 
+Es empfiehlt sich einen Superuser anzulegen um die App vollständig zu nutzen -> Eingabe ins Terminal:
+
+python manage.py createsuperuser
